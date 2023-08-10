@@ -1,0 +1,18 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import './base.css'; */
+
+.h1{
+    @apply text-gray-700 text-[32px] capitalize
+}
+
+.title{
+    @apply  text-[20px] capitalize
+}
+
+.button{
+    @apply px-4 py-1 border text-[16px] text-red-600 rounded-md capitalize disabled:text-gray-400
+}
